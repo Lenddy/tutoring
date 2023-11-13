@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding: 0px;
+    /* background-color: skyblue; */
+}
+
+body{
+    height: 3000px;
+    /* background-color: #121212; */
+}
+
+#one ,.one{
+    color:blue;
+}
+
+.color{
+    color:red ;
+}
+
+
+.backGround{
+    background-color:skyblue;
+    color: green;
+    /* margin:-100px ; */
+}
+
+
+ul {
+    border: 1px solid black;
+}
+li{
+    display: inline-block;
+}
+
+
+table,tr,td,th{
+    border: 1px solid black;
+}
+a{
+    /* display: block; */
+}
