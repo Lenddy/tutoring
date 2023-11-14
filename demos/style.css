@@ -1,0 +1,78 @@
+*{
+    margin: 0 auto;
+    padding:0 auto;
+}
+
+
+.navBar, .main ,.bottom{
+    width: 100%;
+    height: 600px;
+}
+
+
+/* this is  for the navbar*/
+
+.navBar , .bottom{
+    background-color:#ff6347 ;
+}
+
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    height: 70px;
+}
+
+
+.navBar ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    /* flex-direction: column; */
+    width: 50%;
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+    border-bottom: 2px solid black;
+    cursor:pointer;
+}
+
+
+/* this is for the main */
+
+.main{
+    height: auto;
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.paragraph{
+    width: 50%;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* this is for the bottom */
+
+.bottom{
+    height: 100px;
+    text-align: center;
+    height: auto;
+}
+
