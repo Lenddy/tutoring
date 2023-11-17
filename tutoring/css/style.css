@@ -1,6 +1,6 @@
 *{
     margin:0px;
-    padding: 0px;
+    /* padding: 0px; */
     /* background-color: skyblue; */
 }
 
@@ -25,12 +25,13 @@ body{
 }
 
 
-ul {
+/* ul {
+    margin:30px ;
     border: 1px solid black;
 }
 li{
     display: inline-block;
-}
+} */
 
 
 table,tr,td,th{
@@ -39,3 +40,10 @@ table,tr,td,th{
 a{
     /* display: block; */
 }
+
+
+
+/* #myList{
+    display: flex;
+    flex-direction: column;
+} */
